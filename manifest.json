@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "StudyBuddy",
+  "description": "An AI assistant to help understand educational research documents",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "icons/rdshklogo.png"
+  }
+}
