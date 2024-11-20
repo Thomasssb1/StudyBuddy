@@ -17,9 +17,16 @@ An interactive AI assistant which summarises text documents and explains them us
 > Run the command,
 >
 > ```zsh
-> npx tailwindcss -i ./scripts/stylesheet.css -o ./scripts/public/stylesheet.css --watch
+> npx tailwindcss -i ./src/stylesheet.css -o ./dist/stylesheet.css --watch
 > ```
 >
 > in order to rebuild and generate the necessary css files.
+> Run the following command,
+>
+> ```zsh
+> npm run build
+> ```
+>
+> in order to transpile js to ts - the entire extension will be output to dist/
 
 </details>
