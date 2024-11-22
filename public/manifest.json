@@ -5,6 +5,6 @@
   "version": "1.0",
   "action": {
     "default_popup": "popup/popup.html",
-    "default_icon": "icons/rdshklogo.png"
+    "default_icon": "img/icons/rdshklogo.png"
   }
 }

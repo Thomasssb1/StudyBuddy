@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="w-300 h-500">
 
 <head>
     <meta charset="utf-8" />
@@ -11,10 +11,25 @@
     <link href="../stylesheet.css" rel="stylesheet" />
 </head>
 
-<body lang="en">
-    <h1 class="text-blue-700">AI Assistant</h1>
-    <button type="button" id="test" class="bg-blue-500 border-r-4 p-4">Click</button>
-    <script src="../background.js"></script>
+<body lang="en" class="w-300 h-500">
+    <div class="grid grid-rows-9 h-500">
+        <div id="background" class="row-span-8 grid place-content-center grid-rows-1 grid-cols-1">
+            <div class="bg-primary h-full col-start-1 row-start-1"></div>
+            <div class="bg-gradient-to-b from-white to-black opacity-10 col-start-1 row-start-1"></div>
+            <div class="bg-hero-pattern opacity-1 col-start-1 row-start-1"></div>
+        </div>
+        <div id="input-container" class="w-full bg-secondary grid place-content-center grid-rows-1 grid-cols-1">
+            <div class="bg-tertiary col-start-1 row-start-1 rounded-full h-4/5 mt-1.5 mr-2 ml-2"></div>
+            <div class="flex col-start-1 row-start-1 drop-shadow-sm h-4/5 mt-1.5 mr-2 ml-2">
+                <input id="text-input" type="text" placeholder="Ask me something..."
+                    class=" text-primary w-10/12 ml-5 mr-0.5 bg-transparent" />
+                <div
+                    class="bg-hero rounded-full w-2/12 mb-1 mt-1 mr-1 shadow-inner grid grid-rows-1 grid-cols-1 place-items-center">
+                    <img src="../img/icons/mic_icon.svg" height="20" />
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
